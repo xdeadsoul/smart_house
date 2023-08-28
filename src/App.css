@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  padding: 20px;
+
+}
+body{
+  background-color: #F4F7F0;
+  
+}
+
+.container {
+  
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+nav {
+  background-color: #BFD2D0;
+  color: #fff;
+  padding: 1%;
+  border-radius: 30px;
+  min-height: 50%;
+  text-shadow: -5px 1px 7px rgba(0,0,0,0.30);
+  background: #f56a79;
+  background: radial-gradient(circle farthest-corner at bottom left, #f56a79 0%, #62ccc0 40%);
+  background: -webkit-radial-gradient(circle farthest-corner at bottom left, #f56a79 0%, #62ccc0 40%);
+  background: -moz-radial-gradient(circle farthest-corner at bottom left, #f56a79 0%, #62ccc0 40%);
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  color: #368980;
+
+}
+.title{
+  font-size:200%;
+  color: #f56A79;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #368980;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 20px;
+}
+#btn1{
+  border-radius: 0% 40%;
+}
+
+button:hover {
+  background-color: #62CCC0;
+}
+
+.animated-text {
+  animation: continuousAnimation 2s linear infinite; 
+}
+@keyframes continuousAnimation {
+  0% { opacity: 1;} 
+  50% { opacity: 0.5;} 
+  100% { opacity: 1; } 
+}
+.nav-icon{
+  width: 100px;
+  margin-bottom: -8%;
+  margin-right: 50%;
+  display: block;
+  position: sticky;
+  padding: 10px;
+}
+
+.room-card {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.33% - 150px);
+  min-width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #368980;
+}
+.room-cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.light-switch {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  
+}
+
+.light-on {
+  background-color: #62ccc0;
+}
+
+.light-off {
+  background-color: #92929291;
+}
+
+.temperature-control-square{
+  color: #368980;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2%;
+  text-align: center;
+  background-color: #92929291;
+  margin: 0% 30% 0% 30%;
+  font-size: 50px;
+}
+.bt{
+  color: #368980;
+  cursor: pointer;
+  width: 40%;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}

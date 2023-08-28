@@ -1,0 +1,33 @@
+.square-time-temperature {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: #BFD2D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -20%);
+    left: 50%;
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    background: linear-gradient(to bottom, #BFD2D0, #62CCC0);
+    position: fixed;
+    box-shadow: -5px 5px 16px 1px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -5px 5px 16px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: -5px 5px 16px 1px rgba(0,0,0,0.51);
+    
+    
+  }
+  
+  .time {
+    margin-bottom: 15px;
+    color: #255953;
+  }
+  
+  .temperature {
+    color: #255953;
+  }
+
+  
