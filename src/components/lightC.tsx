@@ -1,4 +1,3 @@
-import { stringify } from 'querystring';
 import React, { useState , useEffect } from 'react';
 import RoomCard from './roomcard';
 
@@ -6,7 +5,7 @@ import RoomCard from './roomcard';
 interface Light {
   id: string;
   isOn: boolean;
-  
+  roomName :  string;
 }
 
 
@@ -44,7 +43,7 @@ const LightsControl: React.FC = () => {
     } catch (error) {
       console.error('Error toggling light:', error);
     }
-  console.log("a")
+  
   };
   return (
     <div>
@@ -55,6 +54,7 @@ const LightsControl: React.FC = () => {
       {lights.map((light) => (
         <RoomCard
           id={light.id}
+          roomName={light.roomName}
           key={light.id}
           isOn={light.isOn}
           toggleLight={() => toggleLight(light.id)}

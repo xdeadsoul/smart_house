@@ -2,39 +2,59 @@
   "lights": [
     {
       "id": "1",
-      "isOn": false
+      "isOn": true,
+      "roomName": "Living Room"
     },
     {
       "id": "2",
-      "isOn": true
+      "isOn": false,
+      "roomName": "Kitchen"
     },
     {
       "id": "3",
-      "isOn": false
+      "isOn": true,
+      "roomName": "Garden Lights"
     },
     {
       "id": "4",
-      "isOn": false
+      "isOn": false,
+      "roomName": "Garage"
     },
     {
       "id": "5",
-      "isOn": true
+      "isOn": true,
+      "roomName": "Bedroom 1"
     },
     {
       "id": "6",
-      "isOn": true
+      "isOn": false,
+      "roomName": "Bedroom 2"
     },
     {
       "id": "7",
-      "isOn": false
+      "isOn": false,
+      "roomName": "Bedroom 3"
     },
     {
       "id": "8",
-      "isOn": false
+      "isOn": false,
+      "roomName": "Bedroom 4"
     },
     {
       "id": "9",
-      "isOn": false
+      "isOn": false,
+      "roomName": "Bedroom 5"
     }
-  ]
+  ],
+  "temperature": {
+    "house": 26
+  },
+  "security": {
+    "electricity": true,
+    "gas": true,
+    "water": true,
+    "doorsLocked": false,
+    "windowsClosed": false,
+    "alarmOn": false
+  }
 }

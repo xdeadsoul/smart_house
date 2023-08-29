@@ -142,3 +142,12 @@ button:hover {
   border: 1px solid #ccc;
   border-radius: 15px;
 }
+.security-controls-list button {
+    padding: 2%;
+    text-align: center;
+    margin: 0% 30% 0% 30%;
+    font-size: 20px;
+    width: 25%;
+    margin-bottom: 25px;
+}
+  
